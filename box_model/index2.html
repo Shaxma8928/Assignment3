@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>my profile</title>
+	<style>
+		.img-size{
+			width:420px;
+		}
+		img{
+			width:100%;
+			border-radius: 60%;
+			
+		}
+		.display-flex{
+			display: flex;
+			justify-content: space-evenly;
+			height: 50vh;
+			align-items: center;
+			margin: 20px 30px 40px 20px;
+			background-color: tomato;
+			border: 2px groove black;
+		}
+		.inside-card{
+			font-size: 20px;
+			color: aliceblue;
+		}
+		@media(max-width:1000px){
+			.img-size{
+			width:220px;
+		}
+		img{
+			width:100%;
+			border-radius: 60%;
+			
+		}
+		.inside-card{
+			font-size: 15px;
+			color: aliceblue;
+			margin-bottom: 30px;
+		}
+		.display-flex{
+			display: flex;
+			justify-content: space-around;
+			height: 40vh;
+			align-items: center;
+			margin: 20px 30px 40px 20px;
+			background-color: rgb(238, 55, 22);
+			border: 2px groove black;
+		}
+		}
+	</style>
+</head>
+<body>
+	<div class="display-flex">
+		<div class="img-size">
+		<img src="https://source.unsplash.com/1600x1000/?newyork" alt="">
+		</div>
+		<div class="inside-card">
+			<h1 class="text">Abhishek Sharma</h1>
+			<p>I am a freelance web developer and <br> instructor passionate about educating <br> students through engaging lessons. Ex AOSPL,
+			Lido Learning</p>
+		</div>
+	</div>
+	<!-- <a href="/box_model/Adding CSS to Mega Project.mp4" download="">video</a> -->
+</body>
+</html>
